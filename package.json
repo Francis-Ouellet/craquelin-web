@@ -1,0 +1,34 @@
+{
+  "name": "craquelin-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/tslint --project tsconfig.json",
+    "test": "./node_modules/.bin/mocha -r ts-node/register test/**/*.ts",
+    "start": "node ./build/app.js",
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francis-Ouellet/craquelin-web.git"
+  },
+  "author": "Francis-Ouellet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francis-Ouellet/craquelin-web/issues"
+  },
+  "homepage": "https://github.com/Francis-Ouellet/craquelin-web#readme"
+}
