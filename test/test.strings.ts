@@ -1,5 +1,5 @@
 import * as assert from "assert";
-import * as string from "./../strings";
+import * as string from "../src/strings";
 
 describe("Testing Strings", () => {
     it("should display Hello World!", () => {
